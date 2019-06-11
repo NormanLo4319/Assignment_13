@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Assignment</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3 Assignment</h1>
+        <h2>Correlations Discovered Bewtween Health Risks and Age, Income</h2>
+        <p>This assignment is based on 2014 ACS 1-year estimates, which includes data on rates of income, obesity, poverty, etc. by state.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12  col-md-10">
+        <div class="article">
+          <h2>Health Care Vs. Poverty</h2>
+          <p>In this graph, we are observing the correlation between lack of health care and poverty at the state level. 
+            There is a upward trend that we can observe from the graph, which suggest a possible positive correlation between the lack 
+            of health care and poverty at the state level.  The higher ratio of poverty is correlated with the higher level of lack of health care.
+          </p>
+        </div>
+        <div id="scatter1"></div>
+          <script type="text/javascript" src="app1.js"></script>
+        </div>
+      </div>
+    </div>
+
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12  col-md-10">
+        <div class="article">
+          <h2>Health Care Vs. Age</h2>
+          <p>Below graph demonstrates the possible correlation between lack of health care and median age at the state level. 
+            As shown in the graph, the states with younger population record higher levels of lack of health care compare to states with older population. 
+            This could be explained by the allocation of health care is more distributed to the states with the aging population.
+          </p>
+        </div>
+        <div id="scatter2">
+          <script type="text/javascript" src="app2.js"></script>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12  col-md-10">
+        <div class="article">
+          <h2>Obesity Rate Vs. Smoke</h2>
+          <p>The last graph represents the high correlation between smoking and obesity at the state level.  As observed in the graph, 
+            there is a clear path of the plots that demonstrates a positive correlation between smoking and obesity.
+            In fact, it is a well-known issue in our country. Smoking is related to many of the chronicle diseases and obesity is one of the many.
+          </p>
+          <div id="scatter3">
+            <script type="text/javascript" src="app3.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+
+
+</body>
+
+</html>
