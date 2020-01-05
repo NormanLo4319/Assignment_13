@@ -1,5 +1,5 @@
 # Data Journalism and D3
-D3 Visualization
+D3 Visualization (Javascript)
 
 ## Background
 
